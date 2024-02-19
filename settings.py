@@ -1,0 +1,25 @@
+import pygame
+
+SCALE = 3
+
+WIDTH = 144 * SCALE
+HEIGHT = 255 * SCALE
+WINDOW_SIZE = (WIDTH, HEIGHT)
+TITLE = "Flappy Bird"
+FPS = 165
+
+BIRD_WIDTH = 80
+BIRD_HEIGHT = 80
+
+BIRD_START_X = WIDTH / 4
+BIRD_START_Y = HEIGHT / 2 - BIRD_HEIGHT / 2
+
+BIRD_JUMP_SIZE = 6.5
+SPEED = 2
+TICK_SPEED = 0.05
+GRAVITY = 0.2
+
+BLUE = (50, 50, 255)
+
+clear_color = (200, 200, 200)
+delta_time = 0
